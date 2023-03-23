@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+#brandimg {
+    width: 300px;
+    height: 100;
+    margin-right: auto;
+
+}
+
+body {
+    background-color: #23263a;
+
+}
+
+
+a {
+    font-weight: 200px;
+    font-size: large;
+    color: aliceblue;
+}
+
+a:hover{
+    color: #fc4956;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
