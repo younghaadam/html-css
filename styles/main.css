@@ -6,6 +6,8 @@
 header{
     display: flex;
     align-items: center;
+    background-color: #1F2235;
+    height: 100px;
 }
 
 #brandimg {
@@ -22,17 +24,25 @@ body {
 
 
 a {
+    text-decoration: none;
     font-weight: 200px;
     font-size: large;
     color: aliceblue;
 }
 
-a:hover{
+li a:hover{
     color: #fc4956;
 }
 
 li {
     list-style-type: none;
     display: inline;
-    padding: 0 20px;
+    padding: 0 40px;
+} 
+
+#Service {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
 }
