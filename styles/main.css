@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
@@ -8,6 +9,7 @@ header{
     align-items: center;
     background-color: #1f2235;
     height: 150px;
+    margin-bottom: 50px;
 }
 
 #brandimg {
@@ -31,7 +33,7 @@ li > a { font-weight: 200px;
 
 
 
-a:hover{
+header li > a:hover{
     color: #fc4956;
     
 }
@@ -55,20 +57,58 @@ i {
     font-size: 30px;
     margin-left: 70px;
     padding: 0%;
-
-}
-
-.myHome > h2 {
-color: #fff;
-margin-left: 70px;
-font-size: 35px;
-font-family: Arial, Helvetica, sans-serif;
+    border-radius: 80px;
+    border: 3px #fc4956 groove;
 
 }
 
 
-.myHome > p {
+
+.container-1 > h2 {
     color: #fff;
+    font-size: 55px;
+    padding: 0 50px;
+    margin: 10px;
+    
+}
+.container-1 > p {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 60px;
+    margin: 10px;
+}
+
+.container-1 > input {
+    padding: 10px 30px;
+   margin-left: 100px;
+   background-color: #1f2235;
+   border-radius: 10px;
+   border-color: #fc4956;
+   color: #fff;
+
+}
+
+#playbutton {
+    padding: 10px 30px;
     margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #fc4956;
+}
+
+.myphoto {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 170px;
+    bottom: 0;
+}
+
+.myphoto > img {
+    position: absolute;
+    height: 130%;
+    left: 15px;
+   
+    
 }
